@@ -86,7 +86,7 @@ def initialize_session_state():
 
 def check_api_key():
     """Check if Google API key is configured"""
-    api_key = os.getenv("GOOGLE_API_KEY", "")
+    api_key = st.secrets["GOOGLE_API_KEY"]
     
     if not api_key:
         st.sidebar.error("⚠️ Google API Key not found!")
