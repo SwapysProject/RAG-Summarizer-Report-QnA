@@ -144,7 +144,7 @@ class QAAgent:
 Instructions:
 - Use ONLY information from the provided context to answer the question
 - If the context doesn't contain enough information, say so clearly
-- Be precise and cite specific details from the documents
+- Give detailed answer and cite specific details from the documents
 - Maintain a professional medical tone
 - If previous conversation history is provided, maintain context continuity
 
